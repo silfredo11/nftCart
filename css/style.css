@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --Verydarkblue-main: hsl(217, 54%, 11%);
+    --verydarkblue-card: hsl(216, 50%, 16%);
+    --verydarkblue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --font-small: 1.2rem;
+    --font-medium: 1.4rem;
+    --font-large: 1.6rem;
+    --font-bigger: 1.8rem;
+}
+html{
+    font-family: 'Outfit', sans-serif;
+    font-size: 62.5%;
+    color: var(--white);
+}
+main{
+    background-color: var(--Verydarkblue-main);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: var(--verydarkblue-card);
+    border-radius: 12px;
+    display: grid;
+}
+.card{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px ;
+}
+.card__img{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card__description{
+    margin-bottom: 20px;
+}
+.card__description  h2{
+    font-size: var(--font-bigger);
+    margin-bottom: 20px;
+}
+.card__description p{
+    font-size: var(--font-large);
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+.card__quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  var(--verydarkblue-line);
+}
+.quote__leff, .quote__right{
+    color: var(--cyan);
+    font-size: var(--font-medium);
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.quote__right{
+    color: var(--soft-blue);
+}
+.quote__leff span, .quote__right span{
+    background-image: url("/asset/images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    
+} 
+.quote__right span{
+    background-image: url("/asset/images/icon-clock.svg");
+} 
+.card__author{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.author__avatar{
+    width: 40px;
+    height: 40px;
+    background-image: url("/asset/images/image-avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid  var(--white);
+}
+.author__description{
+    font-size: var(--font-large);
+    color: var(--soft-blue);
+}
+.author__description span{
+    color: var(--white);
+}

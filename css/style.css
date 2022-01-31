@@ -43,13 +43,18 @@ main{
     height: 50%;
     border-radius: 8px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .card__description{
     margin-bottom: 20px;
 }
-.card__description  h2{
+.description__title{
     font-size: var(--font-bigger);
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.description__title:hover {
+    color: var(--cyan);
 }
 .card__description p{
     font-size: var(--font-large);
@@ -105,4 +110,9 @@ main{
 }
 .author__description span{
     color: var(--white);
+    cursor: pointer;
+}
+.author__description:hover{
+    color: var(--cyan);
+    cursor: pointer;
 }

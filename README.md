@@ -1,6 +1,6 @@
 #nftCart
 
-Esta es una tarjeta que hace alucion al creador o propietario de un nft
+Esta es una tarjeta que hace alusión al creador o propietario de un nft
 
 > En este proyecto me acerque un poco mas hacia el conocimiento de metodologia BEM. 
 Por otro lado tuve la oportunida de usar  pseudo clases y pseudo elementos
@@ -18,9 +18,9 @@ Por otro lado tuve la oportunida de usar  pseudo clases y pseudo elementos
 -  GitHub
 - Chrome 
 
-**Me siento muy agradecido con la comunidad de frontend mentor por haberme proporsionado los estilo y asset**
+**Me siento muy agradecido con la comunidad de frontend mentor por haberme proporsionado los estilos y asset**
 
-**Otros canales que me sirvieron como apoyo en momentos que no encontraba solucion**
+**Otros canales que me sirvieron de apoyo con documentación fuero:**
 
 --Platzi
 --SLee Dw "Canal de telegram"

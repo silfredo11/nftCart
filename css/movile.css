@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 90%;
+    height: 80vh;
+}
+.card{
+    margin-top: 30px;
+}
+.card_container-img{
+    margin-bottom: 30px;
+}
+.card__description{
+    margin-bottom: 30px;
+}
+.description__title {
+    margin-bottom: 30px;
+}
+.card__quote{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.card__author{
+    margin-top: 30px;
+}

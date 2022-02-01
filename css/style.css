@@ -32,6 +32,7 @@ main{
     background-color: var(--verydarkblue-card);
     border-radius: 12px;
     display: grid;
+    box-shadow: 2px 2px 30px 5px black;
 }
 .card{
     width: 90%;
@@ -112,7 +113,7 @@ main{
     color: var(--white);
     cursor: pointer;
 }
-.author__description:hover{
+.author__description-name:hover{
     color: var(--cyan);
     cursor: pointer;
 }

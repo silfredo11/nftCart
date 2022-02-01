@@ -39,12 +39,40 @@ main{
     margin: 0 auto;
     margin-top: 20px ;
 }
-.card__img{
+.card_container-img{
     width: 100%;
     height: 50%;
     border-radius: 8px;
     margin-bottom: 20px;
+    position: relative;
     cursor: pointer;
+}
+.card__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    
+}
+.card__container-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 8px;
+}
+.card__hover-checkout{
+   width: 50px;
+   height: 50px;
+   background-image: url("/asset/images/icon-view.svg");
+}
+.card_container-img:hover > .card__container-hover{
+    opacity: 1;
+    visibility: visible;
 }
 .card__description{
     margin-bottom: 20px;
